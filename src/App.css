@@ -1,0 +1,81 @@
+.login-page {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(111, 129, 196),
+    rgb(65, 74, 252),
+    rgb(0, 0, 139)
+  );
+  height: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+
+form {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+input {
+  border-radius: 0px;
+}
+.login-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.login-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+a .nav-link .active {
+  color: black;
+  background-color: white;
+}
+.nav-link:hover {
+  text-decoration: none;
+}
+
+.add-money-btn,
+.deduct-money-btn,
+.update-btn,
+.delete-btn,
+.purchase-btn {
+  color: white;
+  background-color: darkslategray;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+thead {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(28, 128, 128);
+  color: white;
+}
+table {
+  overflow: auto;
+  display: block;
+  height: 225px;
+  text-align: center;
+}
+.table {
+  width: 100%;
+}
+#EmployeeCont {
+  padding: 0px;
+  padding-right: 0px;
+}
+#AdminCont {
+  padding: 0px;
+  padding-right: 0px;
+}

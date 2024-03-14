@@ -1,0 +1,233 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ajit Kumar Singh",
+      "password": "Ajit@1234",
+      "type": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Ankit",
+      "password": "Ankit@1234",
+      "amount": 1360,
+      "type": "Employee",
+      "transactions": [
+        {
+          "items": [
+            "Chole Bhature-5"
+          ],
+          "BillAmount": 250,
+          "Source": "Admin"
+        },
+        {
+          "items": [
+            "Chole Bhature-2"
+          ],
+          "BillAmount": 100,
+          "Source": "Admin"
+        },
+        {
+          "items": [
+            "Rajma Chawal-2"
+          ],
+          "BillAmount": 120,
+          "Source": "Employee"
+        },
+        {
+          "items": [
+            "Chowmein-2"
+          ],
+          "BillAmount": 140,
+          "Source": "Employee"
+        },
+        {
+          "items": [
+            "Burger-1",
+            "Pizza-1",
+            "Veg Manchurian-1"
+          ],
+          "BillAmount": 210,
+          "Source": "Employee"
+        },
+        {
+          "items": [
+            "Rajma Chawal-1",
+            "Chowmein-1",
+            "Chilly Potato-1"
+          ],
+          "BillAmount": 210,
+          "Source": "Admin"
+        },
+        {
+          "items": [
+            "Chole Bhature-1",
+            "Rajma Chawal-1",
+            "Chowmein-1"
+          ],
+          "BillAmount": 180,
+          "Source": "Employee"
+        },
+        {
+          "items": [
+            "Pizza-2",
+            "Pav Bhaji-1"
+          ],
+          "BillAmount": 220,
+          "Source": "Employee"
+        },
+        {
+          "items": [
+            "Pizza-1"
+          ],
+          "BillAmount": 80,
+          "Source": "Admin"
+        },
+        {
+          "items": [
+            "maggi-1",
+            "rasgule-1"
+          ],
+          "BillAmount": 60,
+          "Source": "Employee"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "XYZ",
+      "amount": 580,
+      "type": "Employee",
+      "transactions": []
+    },
+    {
+      "id": 5,
+      "name": "QWE",
+      "amount": 1500,
+      "type": "Employee",
+      "transactions": []
+    },
+    {
+      "id": 6,
+      "name": "QWE",
+      "amount": 1000,
+      "type": "Employee",
+      "transactions": []
+    },
+    {
+      "id": 4,
+      "name": "AJIT",
+      "amount": 1500,
+      "type": "Employee",
+      "transactions": []
+    },
+    {
+      "id": 7,
+      "name": "AMIT",
+      "amount": 1600,
+      "type": "Employee",
+      "transactions": []
+    }
+  ],
+  "totalItems": [
+    {
+      "id": 1,
+      "name": "Chole Bhature",
+      "price": 50,
+      "quantity": 0,
+      "itemOfTheDay": false
+    },
+    {
+      "id": 2,
+      "name": "Rajma Chawal",
+      "price": 60,
+      "quantity": 0,
+      "itemOfTheDay": false
+    },
+    {
+      "id": 3,
+      "name": "Chowmein",
+      "price": 70,
+      "quantity": 0,
+      "itemOfTheDay": false
+    },
+    {
+      "id": 4,
+      "name": "Chilly Potato",
+      "price": 80,
+      "quantity": 11,
+      "itemOfTheDay": false
+    },
+    {
+      "id": 5,
+      "name": "Burger",
+      "price": 40,
+      "quantity": 44,
+      "itemOfTheDay": false
+    },
+    {
+      "id": 6,
+      "name": "Pizza",
+      "price": 80,
+      "quantity": 40,
+      "itemOfTheDay": false
+    },
+    {
+      "name": "Veg Manchurian",
+      "price": 90,
+      "quantity": 44,
+      "itemOfTheDay": false,
+      "id": 7
+    },
+    {
+      "name": "Aloo Tikki",
+      "price": 50,
+      "quantity": 45,
+      "itemOfTheDay": false,
+      "id": 8
+    },
+    {
+      "name": "Pav Bhaji",
+      "price": 60,
+      "quantity": 44,
+      "itemOfTheDay": false,
+      "id": 9
+    },
+    {
+      "name": "Veg Momos",
+      "price": 40,
+      "quantity": 45,
+      "itemOfTheDay": false,
+      "id": 10
+    },
+    {
+      "name": "Kurkure",
+      "price": 20,
+      "quantity": 50,
+      "itemOfTheDay": true,
+      "id": 11
+    },
+    {
+      "name": "maggi",
+      "price": 40,
+      "quantity": 0,
+      "itemOfTheDay": false,
+      "id": 12
+    },
+    {
+      "name": "rasgule",
+      "price": 20,
+      "quantity": 99,
+      "itemOfTheDay": false,
+      "id": 13
+    }
+  ],
+  "itemsOfTheDay": [
+    {
+      "name": "Kurkure",
+      "price": 20,
+      "quantity": 50,
+      "id": 3
+    }
+  ]
+}
